@@ -65,8 +65,6 @@ type_writer(company_label, "Company  →  Synent Technologies")
 mode_label = tk.Label(frame, font=("Arial", 12), fg="white", bg="#1e293b")
 mode_label.pack(pady=5)
 
-type_writer(mode_label, "Mode  →  GUI Based System")
-
 # Loading Bar
 canvas = tk.Canvas(root, width=300, height=20, bg="white")
 canvas.pack(pady=20)
